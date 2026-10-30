@@ -2,7 +2,7 @@
 
 ThreadWise is developed in GitHub Codespaces. This guide covers creating, configuring, rebuilding, stopping and deleting a Codespace for this repository.
 
-> **Status:** the repository does not yet contain a `.devcontainer/` definition. Until backlog task `W1-01` adds one, a new Codespace uses GitHub's default development image: it has no pinned Python version and no PostgreSQL/pgvector container. This guide stays valid; the rebuild step then reads the repository's dev container once it exists.
+> **Status:** no Codespace has been created yet (decision recorded as `ISS-17` in [requirements.md](./requirements.md)). The repository also does not yet contain a `.devcontainer/` definition. Until backlog task `W1-01` adds one, a new Codespace uses GitHub's default development image: it has no pinned Python version and no PostgreSQL/pgvector container. This guide stays valid; the rebuild step then reads the repository's dev container once it exists.
 
 The repository is `BITS-Pilani-Digital/agentic_ai_capstone`. In the commands below, replace `OWNER/REPO` with that name.
 

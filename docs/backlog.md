@@ -9,6 +9,7 @@ Cumulative milestones `week-01` to `week-04` derived from the Version 7 document
 - Each milestone ends with a review against the previous branch and an immutable tag (for example `cohort-01-week-01-v1`). Fixes propagate forward as new tag versions.
 - A week's work is cumulative; never remove human review, source checks or approval tests to recover schedule (C-14). If week 3 slips, cut topic breadth and visual polish first and record a scope decision.
 - Do not start any task outside the current milestone without a recorded scope decision.
+- **Codespace deferred (ISS-17).** No Codespace exists yet. Tasks that need a running stack (`W1-01` validation, `W1-12`, `PREP-08`, and the week-01 "clean startup" gate evidence) cannot be marked done until verified in a Codespace.
 
 ## Entry criteria — before week-01 starts
 

@@ -54,7 +54,7 @@ Complete the steps in order. Stop at the first step that fails and fix it before
    git push -u origin main
    ```
 4. **Create the branches** as described in [docs/branching.md](docs/branching.md). Only `week-01` is needed to start; create each later branch when the previous week is accepted.
-5. **Create a Codespace** on `week-01` and confirm `echo "$CODESPACES"` prints `true` ([docs/codespaces.md](docs/codespaces.md)).
+5. **Create a Codespace** on `week-01` and confirm `echo "$CODESPACES"` prints `true` ([docs/codespaces.md](docs/codespaces.md)). *Deferred for now (`ISS-17`): this is still the required development environment, so it must be done before any task that needs a running stack can be accepted.*
 6. **Store `GROQ_API_KEY` as a Codespaces secret** restricted to this repository. Never commit it.
 7. **Create the local environment file** inside the Codespace: `cp .env.example .env`.
 8. **Verify prerequisites** (backlog `PREP-07`, `PREP-08`): Groq model access and limits, and the embedding model in a clean Codespace.

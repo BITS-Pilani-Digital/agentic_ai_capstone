@@ -248,6 +248,7 @@ Each item must be decided and recorded here before the dependent work starts. "B
 | ISS-14 | **Who builds.** Documents say learners implement while the developer prepares scaffolding; this project may be built by a single team. Weekly hours and group size are unset. | PP delivery scope; AD preparation | Name roles and effort in PREP-02. | PREP-02 |
 | ISS-15 | **Unspecified versions.** Python, Streamlit, LangGraph, MCP SDK and Postgres/pgvector versions are not given. | AD (pinned dependencies only) | Pin in week 1 and record. | W1-01 |
 | ISS-16 | **Rubric and named tools.** The complete capstone rubric was not checked; graded use of CrewAI, n8n, FAISS, Qdrant or Langfuse is undecided. | PP/AD curriculum sections | Obtain assessor decision before week 1. Until then, none is built. | PREP-01 |
+| ISS-17 | **Codespaces deferred.** C-07 requires development in GitHub Codespaces, but the owner decided on 30 October 2026 to proceed without one for now. Whether the organisation allows or funds Codespaces for members was not confirmed. The only local machine is Windows with Python 3.11 and no Docker, so Compose and pgvector cannot run locally. | Owner decision; `docs/codespaces.md` | C-07 stays binding. Until a Codespace (or local Docker) exists, work is limited to authoring and documentation. Anything needing a running stack (clean-startup, encoder memory, dev container validation) is not accepted until verified in a Codespace. Record the billing owner and result when one is created. | W1-01, PREP-08, W1-12 |
 
 ## 14. Preparation requirements
 
