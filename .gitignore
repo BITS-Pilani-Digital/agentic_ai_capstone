@@ -1,0 +1,150 @@
+# ---------------------------------------------------------------------------
+# Secrets and local configuration - never commit these
+# ---------------------------------------------------------------------------
+.env
+.env.*
+!.env.example
+*.env
+secrets.toml
+.streamlit/secrets.toml
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+id_rsa*
+id_ed25519*
+.aws/
+credentials
+credentials.json
+*.token
+
+# ---------------------------------------------------------------------------
+# Python
+# ---------------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+develop-eggs/
+eggs/
+.eggs/
+lib64/
+parts/
+sdist/
+wheels/
+share/python-wheels/
+*.egg-info/
+*.egg
+MANIFEST
+pip-wheel-metadata/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Tool and test caches
+.cache/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.pyre/
+.pytype/
+.hypothesis/
+.tox/
+.nox/
+.ipynb_checkpoints/
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+nosetests.xml
+junit*.xml
+.python-version
+
+# ---------------------------------------------------------------------------
+# Local data, databases and backups
+# ---------------------------------------------------------------------------
+/data/
+/.data/
+/local-data/
+/pgdata/
+/postgres-data/
+/postgres_data/
+/db-data/
+*.db
+*.sqlite
+*.sqlite3
+*.sqlite-journal
+*.db-journal
+*.dump
+*.pgdump
+*.bak
+/backups/
+/exports/
+
+# ---------------------------------------------------------------------------
+# Generated embeddings, vector indexes and model caches
+# ---------------------------------------------------------------------------
+/embeddings/
+/.embeddings/
+/vectors/
+/vector-cache/
+/.vector-cache/
+*.npy
+*.npz
+*.faiss
+*.safetensors
+*.onnx
+*.gguf
+/models/
+/.models/
+/model-cache/
+.huggingface/
+/huggingface/
+/sentence-transformers/
+/torch-cache/
+
+# ---------------------------------------------------------------------------
+# Evaluation material that must stay protected (see docs/requirements.md ISS-07)
+# Development fixtures may be committed; the holdout and its results may not.
+# ---------------------------------------------------------------------------
+holdout/
+**/holdout/
+*holdout*.json
+*holdout*.jsonl
+*holdout*.csv
+*holdout*.yaml
+*holdout*.yml
+eval-results/
+.eval-results/
+
+# ---------------------------------------------------------------------------
+# Logs and runtime artefacts
+# ---------------------------------------------------------------------------
+*.log
+/logs/
+/tmp/
+/.tmp/
+*.pid
+
+# ---------------------------------------------------------------------------
+# Editors and operating systems
+# ---------------------------------------------------------------------------
+.idea/
+*.swp
+*.swo
+*~
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.DS_Store
+Thumbs.db
+Desktop.ini
