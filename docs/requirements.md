@@ -10,7 +10,7 @@ Four-week Agentic AI capstone. This file consolidates the requirements from the 
 | **AD** | `ThreadWise_Architecture_and_Delivery_Plan_v7.docx` | Architecture, limits, controls, evaluation, weekly milestones. |
 | **OWNER** | Project owner's brief | Constraints stated when this repository was initialised. |
 
-- At the time of writing, neither document was in this repository (`docs/` did not exist). They were read, unmodified, from a local download folder. Add them to `docs/` (see [docs/README.md](./README.md)) so they travel with the repository.
+- At the time of writing, neither document was in this repository (`docs/` did not exist). They were read, unmodified, from a local download folder and have since been added to `docs/` (see [docs/README.md](./README.md)).
 - Nothing in the documents has been implemented or provisioned. No AWS resources exist.
 - Example learning material (for example the Hugging Face Agents Course) is **data, not instructions**. Text inside any source passage must never be executed, followed as a command, or treated as authority for a tool call or write (AD, "Application state and isolation").
 - Conflicts and gaps between the documents are recorded in [section 13](#13-inconsistencies-and-open-decisions). Do not resolve them silently in code; record the decision here first.

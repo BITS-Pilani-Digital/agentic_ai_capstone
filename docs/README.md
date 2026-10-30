@@ -4,14 +4,14 @@ This directory holds the project's reference documents. Nothing here is implemen
 
 ## Approved source documents (Version 7)
 
-These two documents are the project requirements. They are **not currently in this repository** and must be added here before they are treated as approved project documents.
+These two documents are the project requirements.
 
-| Expected file | Purpose | Status |
-|---|---|---|
-| `ThreadWise_Project_Proposal_v7.docx` | Scope, learner journeys, budget, quality gates | **Missing from `docs/`** |
-| `ThreadWise_Architecture_and_Delivery_Plan_v7.docx` | Architecture, limits, controls, evaluation, weekly plan | **Missing from `docs/`** |
+| File | Purpose |
+|---|---|
+| [ThreadWise_Project_Proposal_v7.docx](./ThreadWise_Project_Proposal_v7.docx) | Scope, learner journeys, budget, quality gates |
+| [ThreadWise_Architecture_and_Delivery_Plan_v7.docx](./ThreadWise_Architecture_and_Delivery_Plan_v7.docx) | Architecture, limits, controls, evaluation, weekly plan |
 
-Copy the two files into this directory without renaming or editing them. Do not add earlier versions as if they were current.
+They were copied unmodified from the owner's local copies. Do not edit them; record changes in `requirements.md` and issue a new version of the source document through the stakeholder instead. Do not add earlier versions as if they were current.
 
 ## Working documents (drafts derived from Version 7)
 

@@ -36,14 +36,14 @@ Full constraints are in [docs/requirements.md](docs/requirements.md).
 | [docs/codespaces.md](docs/codespaces.md) | Creating and rebuilding a Codespace |
 | [.github/copilot-instructions.md](.github/copilot-instructions.md) | Rules for AI-assisted development |
 
-The two Version 7 source documents belong in `docs/` but may still be missing; see [docs/README.md](docs/README.md).
+The two Version 7 source documents are in `docs/` (see [docs/README.md](docs/README.md)).
 
 ## Setup sequence
 
 Complete the steps in order. Stop at the first step that fails and fix it before continuing.
 
 1. **Confirm the entry criteria.** Review the preparation items (`PREP-01` to `PREP-11`) in [docs/backlog.md](docs/backlog.md) and the open decisions (`ISS-xx`) in [docs/requirements.md](docs/requirements.md). Week 1 should not start until they are met or an explicit reduced scope is agreed.
-2. **Add the Version 7 documents to `docs/`** (see [docs/README.md](docs/README.md)).
+2. **Version 7 documents** are already in `docs/` (see [docs/README.md](docs/README.md)); confirm they are the intended approved versions.
 3. **Connect this folder to the project repository** (`https://github.com/BITS-Pilani-Digital/agentic_ai_capstone`). It is currently **public**, so treat everything committed as visible to anyone.
    ```bash
    git init -b main
